@@ -99,7 +99,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, UITextFieldDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuration = ARWorldTrackingSessionConfiguration()
+        let configuration = ARWorldTrackingConfiguration()
         sceneView.session.run(configuration)
     }
     
